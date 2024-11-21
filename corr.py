@@ -1,7 +1,7 @@
 import pandas as pd
 import numpy as np
 
-df = pd.read_csv("./archive/ecommerce_customer_data_large.csv")
+df = pd.read_csv("./originalDataSets/ecommerce_customer_data_large.csv")
 
 df.isnull().sum()
 df.fillna(0, inplace=True)
